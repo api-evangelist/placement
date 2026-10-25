@@ -1,25 +1,68 @@
 aid: placement
+
 name: Placement
-description: 'Placement is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by coatue) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://placement-pub.s3.us-east-2.amazonaws.com/home-meta.png
+
+description: 'Exec provides an AI‑native training platform that helps revenue and employee teams improve high‑stakes conversations. The service offers AI‑driven roleplays, call scoring, learning modules, and coaching tools to certify sales, service, support, and leadership staff before they engage with customers. It integrates with existing call recorders and supplies analytics to track skill development and ROI.'
+
 url: https://raw.githubusercontent.com/api-evangelist/placement/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
-- Company
-apis: []
+- AI Training
+- Conversation Intelligence
+- Sales Enablement
+- Employee Training
+- Leadership Development
+- Call Scoring
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- coatue
+
 common:
+- type: LLMsTxt
+  url: llms/placement-llms.txt
+- type: Hosts
+  url: hosts/placement-hosts.yml
+- type: Vendors
+  url: vendors/placement-vendors.yml
+- type: DomainSecurity
+  url: security/placement-domain-security.yml
 - type: Website
   url: https://www.placement.com/
+
+apis: []
+
+x-backed-by:
+- coatue
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, GraphQL, AsyncAPI, gRPC or WSDL contracts were found on the provider's documentation site.
+  evidence:
+    - url: https://www.placement.com/
+      status: 200
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

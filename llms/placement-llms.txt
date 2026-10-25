@@ -1,0 +1,194 @@
+# Exec — Navigation Index
+
+> Exec is an AI-native training platform for customer-facing teams. We specialize in training sales, service, and support teams, as well as those with management responsibility. Your people practice custom AI roleplays, get scored on real calls, and access courses and programs in a full LMS/LXP.
+
+Full text of every marketing page below: https://www.exec.com/llms-full.txt
+Product and API documentation: https://docs.exec.com/llms.txt
+Full list of blog and news articles: https://www.exec.com/sitemap/index.xml
+
+The sections below are public — no authentication required.
+
+## Company
+
+- [Homepage](/index.md): Overview of Exec, the AI training platform for sales, service, and support teams: AI roleplays, call scoring, courses and programs.
+- [Pricing](/pricing.md): Pricing plans and what's included at each tier.
+- [About Us](/about-us.md): Company background, mission, and team.
+- [Enterprise Privacy](/enterprise-privacy.md): Enterprise data privacy and security practices.
+- [For Coaches](/for-coaches.md): How independent coaches join and deliver coaching through Exec.
+- [For Individuals](/for-individuals.md): Exec for individual learners rather than team accounts.
+- [Sales Comp Calculator](/sales-comp.md): Interactive calculator for sales compensation planning.
+- [Affiliate Program](/affiliates.md): Affiliate program overview: commission structure and how to apply.
+- [Partner Program](/partners.md): Partner program overview: referral structure and how to apply.
+- [Guides](/learn.md): Index of long-form guides on sales training, coaching, and enablement topics.
+- [News](/news.md): Company news and product announcements index. See /sitemap/index.xml for the full list of individual articles.
+
+## Product
+
+- [Coaching](/coaching-platform.md): Live coaching features: session scheduling, credit tracking, and the coach marketplace.
+- [Platform Overview](/platform.md): Overview of the full Exec platform: coaching, roleplays, call scoring, courses, and knowledge hub in one workspace.
+- [AI Roleplays](/ai-roleplays.md): AI roleplay simulations for practicing sales and support conversations.
+- [Call Scoring](/call-scoring.md): Automated call scoring: scorecards, categories, and review workflows.
+- [Knowledge Hub](/knowledge-hub.md): Central knowledge base with AI chat search over org content, integrated with Notion and roleplay training.
+- [Exec MCP Server](/mcp.md): Remote MCP server that connects Exec to Claude, ChatGPT, Copilot, Claude Code and Cursor to analyze call performance, find skill gaps and build roleplays from an AI assistant.
+- [Courses](/courses-platform.md): Course building, enrollment, and progress tracking for structured training programs.
+
+## Solutions by Team
+
+- [AI Sales Roleplay](/solutions/ai-sales-roleplay.md): AI roleplay use case for practicing sales conversations.
+- [Sales Training](/solutions/sales-training.md): Sales training use case: roleplay practice and skill assessment for reps.
+- [Car Sales Training](/solutions/car-sales-training.md): Sales training tailored to automotive dealership sales teams.
+- [Customer Success](/solutions/customer-success.md): Customer success use case: onboarding and account management training.
+- [Customer Support](/solutions/customer-support.md): Customer support use case: support rep training and call review.
+- [Leadership Development](/solutions/leadership-development.md): Leadership development use case: coaching and skill-building for managers.
+- [Sales Enablement](/solutions/sales-enablement.md): Sales enablement use case: onboarding, content, and coaching workflows for sales teams.
+- [Sales Readiness](/solutions/sales-readiness.md): Sales readiness use case: measuring rep proficiency before customer-facing calls.
+- [Conversation Intelligence](/solutions/conversation-intelligence.md): Conversation intelligence use case: call transcription, scoring, and insight extraction.
+- [Sales Onboarding](/solutions/sales-onboarding.md): New sales rep onboarding: ramp plans and certification tracking.
+- [Employee Training](/solutions/employee-training.md): General employee training use case across departments.
+
+## Solutions by Industry
+
+- [Healthcare](/solutions/healthcare.md): Exec for healthcare industry training use cases.
+- [Technology & SaaS](/solutions/technology.md): Exec for technology and SaaS company sales and support teams.
+- [Professional Services](/solutions/professional-services.md): Exec for professional services firms.
+- [Financial Services](/solutions/financial-services.md): Exec for financial services industry training use cases.
+
+---
+
+# In-App Routes — Authentication Required
+
+> Everything below this line requires a signed-in Exec session. A public
+> or anonymous agent fetching one of these paths will get a login
+> redirect, not the content described — do not attempt to fetch them
+> without valid session credentials. This section exists for the in-app
+> onboarding agent to navigate a signed-in user's own workspace.
+
+## Coaching
+
+- [Coach Profile](/coaches/:coachSlug): Public coach profile with bio, specialties, services, and booking options.
+- [Coach Specialty Profile](/coaches/:coachSlug/:specialtySlug): Coach profile filtered to one specialty, with related services and booking.
+- [Select Coach](/schedule): Pick a coach before booking a one-on-one coaching session.
+- [Schedule Session](/schedule/:coachId): Choose a time slot and book a session with the selected coach.
+- [Coach Matching](/match): Start coach matching by sharing goals and preferences.
+- [Choose Coach](/choose): Review recommended coaches and select who to work with.
+- [Coaching](/coaching): Browse coaches, view upcoming and past sessions, and schedule new coaching.
+- [Sessions](/sessions): List upcoming and past coaching sessions with scheduling details.
+- [Session Details](/sessions/:meetingId): Session detail with meeting info, notes, and follow-up actions.
+- [Messages](/messages): Inbox for direct messages with coaches, clients.
+
+## Certifications
+
+- [Public Credential](/credentials/:uuid): Login-free page for one issued certificate: recipient, issuer, dates, status and credential ID. Linked from LinkedIn.
+- [Certifications](/certifications): List certifications, define certification programs, and track who has earned each one.
+- [Create Certification](/certifications/create): Create a certification with description and expiration details.
+- [Certification Reports](/certifications/reports): Workspace-wide certification completion and progress reporting.
+- [Certification Details](/certifications/:id): Review one certification's requirements, learners, and completion status.
+- [Edit Certification](/certifications/:id/edit): Edit certification details, requirements, and learner assignments.
+- [My Certificates](/certificates): Your earned certificates with status, dates, and LinkedIn share actions.
+- [Certificate Download](/certificates/:id): View or download a certificate a learner has earned.
+
+## Account
+
+- [Reset Password](/reset-password): Request a password reset email for your Exec account.
+- [Forgot Password](/forgot-password): Request a password reset email for your Exec account.
+- [Create Workspace](/create-workspace): Create a new Exec workspace during signup or onboarding.
+- [Sign Up](/signup): Create a new Exec account.
+- [Get Demo](/get-demo): Request a product demo from the Exec team.
+- [Schedule Demo](/schedule-demo): Book a live product demo with the Exec team.
+
+## Settings
+
+- [Workspace Members](/workspace/users): Invite teammates, assign Admin or Member roles, and manage seat usage.
+- [Workspace Profile Fields](/workspace/profile-fields): Define custom profile fields (for example region or role) used in reporting and filters.
+- [Feature Access](/workspace/feature-access): Choose which groups and members can see each part of Exec, e.g. to pilot a feature with a small team.
+- [Feature Permissions](/workspace/feature-access/permissions): Choose which groups and members are allowed to manage each part of Exec, e.g. creating roleplays or courses.
+- [Workspace Groups](/workspace/groups): Create and manage member groups used for assignments and filtered reporting.
+- [Group Details](/workspace/groups/:groupId): View members of one group and update who belongs to it.
+- [Calls Settings](/workspace/calls): Workspace-wide settings for call features.
+- [Call Categories](/workspace/calls/categories): Create call categories and assign each one its own scoring rubric and roster.
+- [Call Category Settings](/workspace/calls/categories/:id/:subpath?): Configure one call category: evaluation rubric, summarization instructions, and data to be extracted.
+- [Skill Settings](/workspace/skills): Manage the workspace skill taxonomy used in calls, roleplays, and reports.
+- [Workspace Details](/workspace/settings): Update workspace name, website, logo, and remove workspace option.
+- [Billing](/workspace/billing): View plan, seats, renewal date, payment method, and platform credit balance.
+- [Integrations](/workspace/integrations): Connect call recorders and other integrations so calls import into Exec automatically.
+- [Security](/workspace/security): Configure SSO (SAML), SCIM provisioning, and workspace security policies.
+- [API Access](/workspace/api): Create and revoke API keys for programmatic access to Exec data.
+- [Export](/workspace/export): Export workspace data to CSV for offline analysis.
+- [Rubrics](/rubrics): List scoring rubrics shared across call categories and roleplays scenarios.
+- [Rubric Details](/rubrics/:uuid): Edit criteria, weights, and skill mappings for one scoring rubric.
+
+## Calls
+
+- [Calls Onboarding](/calls/onboarding): First-time Calls setup: pick categories, identify teammates, and connect a recorder.
+- [Call Scorecard](/scorecards/:uuid): Full AI scorecard for one call: transcript highlights, rubric scores, and summary.
+- [Calls History](/calls/history): Search and view imported calls.
+- [Calls Dashboard](/calls/dashboard): Call analytics and insights: average scores, trends, performance, and leaderboards.
+
+## Other
+
+- [Updates](/updates): Product changelog with release notes and feature announcements.
+
+## Knowledge
+
+- [Knowledge Hub](/knowledge): Browse folders, files, and pages in the workspace Knowledge Hub.
+- [Knowledge Folder](/knowledge/hub/:folderId): Browse files and pages inside one Knowledge Hub folder.
+- [Knowledge Page](/knowledge/page/:id): Read or edit a Knowledge Hub page used as training content.
+- [Knowledge File](/knowledge/file/:id): Open a Knowledge Hub file or uploaded document.
+- [New Knowledge Chat](/knowledge/chat/new): Start an AI chat to draft or refine a Knowledge Hub article.
+
+## Home
+
+- [Home](/home): Personalized home feed with recent activity and shortcuts to key features.
+
+## Roleplays
+
+- [Roleplays](/roleplays): Roleplay home: recent practice, assignments, and quick links to scenarios.
+- [Scenario Collections](/scenarios): Browse roleplay collections and scenarios.
+- [Scenario Collection](/scenarios/collections/:slug): Scenarios inside one published collection.
+- [Assignments](/roleplays/assignments): Create roleplay assignments, set due dates, and track completion by learner.
+- [Roleplay Analytics](/roleplays/analytics): Roleplay analytics: completion rates, scores, leaderboards, performance, and trends across scenarios.
+- [Roleplay Sessions](/roleplays/sessions): Search and filter completed or in-progress roleplay practice sessions.
+- [Create Scenario with AI](/scenarios/chat/new): Scenario Studio: describe a roleplay in chat and let AI draft the scenario.
+- [Edit Scenario](/scenarios/:scenarioSlug/edit): Edit scenario copy, character, scoring, and scenario settings in Scenario Studio.
+- [Scenario Assignments](/scenarios/:scenarioSlug/assignments): Assign this scenario to learners and configure due dates or reminders.
+- [Scenario Details](/scenarios/:scenarioSlug): Scenario detail page to review setup and start a practice session.
+- [Scenario Analytics](/scenarios/:scenarioSlug/analytics): Per-scenario analytics: attempts, scores, and learner breakdowns.
+- [Roleplay Room](/scenarios/:scenarioSlug/room/:roomKey): Join a shared roleplay room through its invite link, or rejoin a call after a disconnect.
+- [Roleplay Session Review](/scenarios/:scenarioSlug/:sessionUuid/:view?): Review one practice session: transcript, AI feedback, score, and rubric breakdown.
+- [Scenario Session Harness](/harness/scenario-session): Internal harness: play the briefing → live session transition on the production scenario card.
+
+## Skills
+
+- [Skills](/skills): Skills dashboard and insights.
+- [Skill Analytics](/skills/analytics): Workspace skill performance reports and heatmaps across learners or groups.
+- [Skill Details](/skills/:skillId): One skill's dashboard and linked training resources.
+- [Skill Dashboard](/skills/:skillId/dashboard): Charts and KPIs for how learners perform on one skill.
+- [Skill Resources](/skills/:skillId/resources): Scenarios and Knowledge Hub content linked to a specific skill.
+
+## Courses
+
+- [Courses](/courses): Browse enrolled courses and the published course catalog; discover and open courses.
+- [Manage Courses](/courses/manage): List every course in the workspace and create new ones.
+- [Course Collection](/courses/manage/collections/:collectionId): Courses inside one collection.
+- [My Courses](/courses/my): Redirects to My Learning, the list of courses you're enrolled in.
+- [Courses](/courses/catalogs): Browse the course catalog by collection, and follow the courses you're enrolled in under My Learning.
+- [Course Details](/courses/catalog/:id): View a published course's description, sections, and outcomes, then enroll.
+- [My Enrollment](/courses/catalog/:id/enrollments/:enrollmentId): View one of your enrollment attempts on a course: status, dates, progress, and certificate.
+- [Take Course](/courses/:id/learn): Work through a course's sections and pages, tracking progress and completion.
+- [New Course](/courses/new): Create a new course with basic details or generate one with AI.
+- [Course Block Harness](/harness/course-blocks): Internal harness: render each course block type in every display mode inside the learner page frame.
+- [Enrollment Outcome Harness](/harness/course-outcomes): Internal harness: trigger enrollment success/failure state changes and watch the learner surfaces react.
+- [Course Builder](/courses/:id/edit): Author course content: sections, pages, blocks, drag-and-drop, and AI assistance.
+- [Course Preview](/courses/:id/preview): Preview a course as a learner would see it, without saving progress.
+- [Course Dashboard](/courses/:id): Course management hub with enrollment stats, at-risk learners, and section breakdown.
+- [Course Participants](/courses/:id/participants): See course participants and bulk-nudge or re-enroll them.
+- [Enrollment Detail](/courses/:id/participants/:enrollmentId): View one participant's course progress and manage their enrollment.
+
+## Programs
+
+- [Programs](/programs): List training programs; create curricula that mix roleplays, surveys, and coaching.
+- [Program Participants](/programs/:id/participants): Add or remove program participants and see each person's progress.
+- [Program Dashboard](/programs/:id): Program dashboard with completion stats and activity status.
+- [Program Details](/programs/:id/:view): View program details in timeline view.
+- [Program Component](/programs/:id/:view/:componentId): View program component details and follow up actions (edit, end early, delete, or grant extension).
+- [Program Response](/programs/:id/:view/:componentId/:responseId): Review a participant's submission or response for one program activity.

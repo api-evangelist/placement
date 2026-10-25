@@ -1,0 +1,16 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/placement/integrations
+- https://n8n.io/integrations/placement/
+- https://composio.dev/toolkits/placement
+- https://monid.ai/tools/placement
+checked:
+- https://composio.dev/toolkits/placement
+- https://monid.ai/tools/placement
+- https://n8n.io/integrations/placement/
+- https://zapier.com/apps/placement/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
